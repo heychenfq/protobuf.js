@@ -11,3 +11,4 @@ sandbox/
 .nyc_output
 dist/
 .gitpod.yml
+.DS_Store

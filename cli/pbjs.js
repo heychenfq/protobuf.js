@@ -6,7 +6,8 @@ var path     = require("path"),
     pkg      = require("./package.json"),
     util     = require("./util"),
     glob     = require("glob"),
-    protobuf = require("protobufjs");
+    // protobuf = require("protobufjs");
+    protobuf = require("@chenfuqiang/protobufjs");
 
 var targets  = util.requireAll("./targets");
 

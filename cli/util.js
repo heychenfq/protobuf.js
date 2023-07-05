@@ -1,7 +1,8 @@
 "use strict";
 var fs       = require("fs"),
     path     = require("path"),
-    protobuf = require("protobufjs");
+    // protobuf = require("protobufjs");
+    protobuf = require("@chenfuqiang/protobufjs");
 
 function basenameCompare(a, b) {
     var aa = String(a).replace(/\.\w+$/, "").split(/(-?\d*\.?\d+)/g),
@@ -240,4 +241,3 @@ exports.filterMessage = function (root, needMessageConfig) {
         return true;
     });
 };
-

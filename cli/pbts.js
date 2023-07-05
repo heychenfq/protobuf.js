@@ -159,7 +159,8 @@ exports.main = function(args, callback) {
 
                 // Build an object of imports and paths
                 var imports = {
-                    $protobuf: "protobufjs"
+                    // $protobuf: "protobufjs"
+                    $protobuf: "@chenfuqiang/protobufjs"
                 };
                 importArray.forEach(function(importItem) {
                     imports[getImportName(importItem)] = importItem;
